@@ -1,0 +1,24 @@
+# Public
+build/*
+.awcache/*
+shared/*
+
+# Environment Files
+.env
+
+# Temp Data
+SpiritOS/Components/Desktop/Canvas/EventPage/events.js
+SpiritOS/Components/Desktop/Canvas/EventPage/playerList.js
+
+#OSX File
+.DS_Store
+
+# Intellij files
+.idea
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
