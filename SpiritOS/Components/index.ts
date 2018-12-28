@@ -2,6 +2,8 @@ import App from './App'
 import Sidebar from './Desktop/Sidebar'
 import SidebarCommunityOption from './Desktop/Sidebar/SidebarCommunityOption'
 import Desktop from './Desktop'
+import SplashPage from './SplashPage'
+import Cover from './SplashPage/Cover'
 import Canvas from './Desktop/Canvas'
 import EventPage from './Desktop/Canvas/EventPage'
 import Schedule from './Desktop/Canvas/EventPage/Schedule'
@@ -12,6 +14,9 @@ export {
   //APP ROOT
   App,
   Desktop,
+  SplashPage,
+  //SPLASH PAGE
+  Cover,
   //CANVAS
   Canvas,
   Agenda,

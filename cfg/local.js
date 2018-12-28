@@ -20,11 +20,11 @@ module.exports = {
   },
   resolve: {
     alias:{
-      images: path.resolve('images'),
+      assets: path.resolve('images'),
       SpiritOS: path.resolve('SpiritOS'),
       shared: path.resolve('shared')
     },
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.json','.svg']
   },
   module: {
     rules: [

@@ -10,7 +10,8 @@ import __ from './_styles'
 import clone from 'lodash/clone'
 import { example } from './_gql'
 
-import { Desktop } from 'SpiritOS/Components'
+import { Desktop, SplashPage } from 'SpiritOS/Components'
+
 const FETCH_MY_PROFILE = gql `
   query fetchMyProfile {
     profile {
@@ -59,15 +60,22 @@ class App extends React.Component<Props, State> {
           if ( loading ) return <div>LOADING</div>
           if ( error ) return <div>ERROR</div>
           const { profile } = data;
-          return (
-            <__.App>{ isMobile || windowWidth && windowWidth < 420 ?
-              <__.MobileApp>
-                Mobile
-              </__.MobileApp> :
-              <Route path='/:community' component={() => <Desktop profile={ profile }/> } />
+
+            if ( isMobile || windowWidth && windowWidth < 420 ){
+                return (
+                    <__.MobileApp>
+                        Mobile
+                    </__.MobileApp>
+                )
+
+            } else {
+                return (
+                    <__.App>
+                        <Route exact path='/' component={() => <SplashPage /> }/>
+                        <Route path='/:community' component={() => <Desktop profile={ profile }/> }/>
+                    </__.App>
+                )
             }
-            </__.App>
-          )
         }}
       </Query>
 
