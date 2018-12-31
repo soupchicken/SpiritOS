@@ -36,17 +36,38 @@ class Cover extends React.Component<Props, State> {
             web="images/redweb.svg"
             nodes={[
               { portrait:'man-white-beard.png', background:'redcircle.svg',
-                fadeInDelay:250 , width:22, xPos:44, yPos:0 },
+                fadeInDelay:200 , width:24, xPos:48, yPos:-2 },
               { portrait:'girl-blonde.png', background:'redcircle.svg',
-                fadeInDelay:300 , width:22, xPos:17, yPos:11 },
+                fadeInDelay:275 , width:24, xPos:18, yPos:11 },
               { portrait:'man-latino.png', background:'redcircle.svg',
-                fadeInDelay:250 , width:20, xPos:75, yPos:4 },
+                fadeInDelay:200 , width:23, xPos:77, yPos:2 },
               { portrait:'girl-asian.png', background:'redcircle.svg',
-                fadeInDelay:350 , width:22, xPos:54, yPos:29 },
-              { portrait:'man-black.png', background:'redcircle.svg',
-                fadeInDelay:350 , width:20, xPos:81, yPos:35 },
-              { portrait:'girl-pink.png', background:'redcircle.svg',
-                fadeInDelay:400 , width:20, xPos:58, yPos:60 },
+                fadeInDelay:350 , width:21, xPos:59, yPos:28 },
+              { portrait:'man-asian.png', background:'redcircle.svg',
+                fadeInDelay:350 , width:21, xPos:84, yPos:32 },
+              { portrait:'man-indian.png', background:'redcircle.svg',
+                fadeInDelay:425 , width:21, xPos:64, yPos:54 },
+              { portrait:'man-old.png', background:'redcircle.svg',
+                fadeInDelay:350 , width:23, xPos:-9, yPos:25 },
+              { portrait:'girl-old.png', background:'redcircle.svg',
+                fadeInDelay:350 , width:21, xPos:7, yPos:50 },
+              { portrait:'man-white-redhead.png', background:'redcircle.svg',
+                fadeInDelay:425 , width:23, xPos:32 , yPos:39 },
+            ]}
+          />
+          <CommunityWeb
+            web="images/blueweb.svg"
+            nodes={[
+              { portrait:'girl-black.png', background:'bluecircle.svg',
+                fadeInDelay:200 , width:28, xPos:6, yPos:3 },
+              { portrait:'girl-muslim.png', background:'bluecircle.svg',
+                fadeInDelay:200 , width:26, xPos:66, yPos:5 },
+              { portrait:'girl-white.png', background:'bluecircle.svg',
+                fadeInDelay:275 , width:28, xPos:35, yPos:16 },
+              { portrait:'man-white.png', background:'bluecircle.svg',
+                fadeInDelay:350 , width:28, xPos:8, yPos:36 },
+              { portrait:'girl-pink.png', background:'bluecircle.svg',
+                fadeInDelay:425 , width:27, xPos:44, yPos:47 },
             ]}
           />
           </__.WebWrap>

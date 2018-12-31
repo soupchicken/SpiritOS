@@ -24,7 +24,7 @@ class CommunityWeb extends React.Component<Props, State> {
     setTimeout(() => {
       this.web.style.opacity = 1;
       this.web.style.marginTop = 0;
-    }, 100 );
+    }, 175 );
   }
 
   __Nodes( nodes ) {

@@ -8,7 +8,7 @@ export default {
     background:linear-gradient(to bottom, #FFFAF7 0%, #FFFAF7 100%);
     width:100%;
     height:100vh;
-    min-height:30rem;
+    min-height:42rem;
   `,
   CoverTop: styled.div`
     flex:4;
@@ -16,7 +16,7 @@ export default {
     flex-direction:column;
     justify-content:flex-end;
     opacity:0;
-    transition: opacity 200ms ease-out;
+    transition: opacity 400ms ease-out;
   `,
   Logo: styled.img`
     width:32rem;
@@ -41,6 +41,6 @@ export default {
     height:100%;
     width:100%;
     max-width:80rem;
-    padding-top:2rem;  
+    padding-top:3rem;  
   `
 }

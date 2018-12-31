@@ -9,6 +9,7 @@ export default {
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    overflow:hidden;
   `,
   Overview:styled.div`
     width:100%;
