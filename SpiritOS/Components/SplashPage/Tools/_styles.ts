@@ -12,7 +12,7 @@ export default {
     align-self:center;
     width:100%;
     padding:0 3rem;
-    margin-top:5.75rem;
+    margin-top:5.25rem;
     z-index:1;
   `,
   Title:styled.h2`

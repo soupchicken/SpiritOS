@@ -4,7 +4,16 @@ import { RouteComponentProps } from 'react-router'
 import { withRouter, Switch, Route, Link } from 'react-router-dom'
 import __ from './_styles'
 
-import { Cover, SystemOverview, ValueProposition, LOVE, Governance, Tools } from 'SpiritOS/Components'
+import {
+  Cover,
+  SystemOverview,
+  ValueProposition,
+  LOVE,
+  Governance,
+  Tools,
+  Events,
+  Heroes
+} from 'SpiritOS/Components'
 
 interface Props extends RouteComponentProps<any> {}
 interface State {}
@@ -27,6 +36,8 @@ class SplashPage extends React.Component<Props, State> {
         <LOVE />
         <Governance />
         <Tools />
+        <Events />
+        <Heroes />
       </__.SplashPage>
     )
   }

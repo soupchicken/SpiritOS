@@ -6,9 +6,17 @@ import __ from './_styles'
 
 import Node from '../Node'
 
+interface INode {
+  portrait:string,
+  background:string,
+  fadeInDelay:number,
+  width:number,
+  xPos:number,
+  yPos:number
+}
 interface Props {
   web:string,
-  nodes:any
+  nodes:INode[]
 }
 interface State {}
 

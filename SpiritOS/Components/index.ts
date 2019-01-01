@@ -10,6 +10,8 @@ import ValueProposition from './SplashPage/ValueProposition'
 import LOVE from './SplashPage/LOVE'
 import Governance from './SplashPage/Governance'
 import Tools from './SplashPage/Tools'
+import Events from './SplashPage/Events'
+import Heroes from './SplashPage/Heroes'
 
 import Canvas from './Desktop/Canvas'
 import EventPage from './Desktop/Canvas/EventPage'
@@ -29,6 +31,8 @@ export {
   LOVE,
   Governance,
   Tools,
+  Events,
+  Heroes,
   //CANVAS
   Canvas,
   Agenda,
