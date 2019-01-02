@@ -5,7 +5,7 @@ export default {
     position:relative;
     width:100%;
     height:100vh;
-    min-height:54rem;
+    min-height:52rem;
     background:#00C96F;
     border-top: .8125rem solid #0D3826;
   `,

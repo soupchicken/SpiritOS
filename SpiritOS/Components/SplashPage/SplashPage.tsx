@@ -12,7 +12,9 @@ import {
   Governance,
   Tools,
   Events,
-  Heroes
+  Heroes,
+  Kickstarter,
+  Roadmap
 } from 'SpiritOS/Components'
 
 interface Props extends RouteComponentProps<any> {}
@@ -38,6 +40,8 @@ class SplashPage extends React.Component<Props, State> {
         <Tools />
         <Events />
         <Heroes />
+        <Kickstarter />
+        <Roadmap />
       </__.SplashPage>
     )
   }

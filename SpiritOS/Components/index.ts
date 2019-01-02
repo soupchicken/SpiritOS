@@ -12,6 +12,8 @@ import Governance from './SplashPage/Governance'
 import Tools from './SplashPage/Tools'
 import Events from './SplashPage/Events'
 import Heroes from './SplashPage/Heroes'
+import Kickstarter from './SplashPage/Kickstarter'
+import Roadmap from './SplashPage/Roadmap'
 
 import Canvas from './Desktop/Canvas'
 import EventPage from './Desktop/Canvas/EventPage'
@@ -33,6 +35,8 @@ export {
   Tools,
   Events,
   Heroes,
+  Kickstarter,
+  Roadmap,
   //CANVAS
   Canvas,
   Agenda,
