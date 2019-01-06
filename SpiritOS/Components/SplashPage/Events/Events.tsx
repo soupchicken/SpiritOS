@@ -17,7 +17,7 @@ class Events extends React.Component<Props, State> {
     return (
       <__.Events>
         <__.Header>
-          <__.Title>Do More Together</__.Title>
+          <__.Title>Back Community Events</__.Title>
           <__.Subtitle>Provide the means for your community to gather</__.Subtitle>
         </__.Header>
       </__.Events>

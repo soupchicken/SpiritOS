@@ -6,7 +6,9 @@ export default {
     display:flex;
     flex-direction:column;
     width:100%;
-    height:50rem;
+    height:100vh;
+    min-height:50rem;
+    max-height:60rem;
     background:#009DFF;
   `,
   SectionDivider:styled.div`

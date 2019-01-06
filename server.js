@@ -87,6 +87,7 @@ function renderHTML( content, initialState, apolloState, stylesheet ) {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" />
         <link href="https://file.myfontastic.com/EuTGP6YW2rCSNuzKG4zzAE/icons.css" rel="stylesheet">
         <link rel="icon" type="img/ico" href="/images/favicon.ico"/>
+        ${ NODE_ENV === 'production' ? `<link href="/build/style.css" rel="stylesheet">` : `` }
         ${ stylesheet }
       </head>
       <body>

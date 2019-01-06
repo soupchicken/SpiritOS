@@ -5,8 +5,8 @@
   "description": "L2 approved react project boilerplate. React, React Router, Redux",
   "scripts": {
     "clean": "rm -rf build",
-    "build": "export NODE_ENV=production && export GATEWAY_URL=http://localhost:7750 && npm run clean && mkdir build && webpack",
-    "local": "export NODE_ENV=local && export GATEWAY_URL=http://localhost:7750 && webpack && babel-node server.js --extensions '.ts','.tsx','.js'",
+    "build": "export NODE_ENV=production && export GATEWAY_URL=http://192.168.1.114:7750 && npm run clean && mkdir build && webpack",
+    "local": "export NODE_ENV=local && export GATEWAY_URL=http://192.168.1.114:7750 && webpack && babel-node server.js --extensions '.ts','.tsx','.js'",
     "production": "npm run build && node build/server.js",
     "build-win": "npm run clean && set NODE_ENV=production&& mkdir build && webpack",
     "local-win": "set NODE_ENV=local&& webpack && babel-node server.js --extensions '.ts','.tsx','.js'",

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default {
   Kickstarter: styled.div`
     width:100%;
-    min-height:62rem;
+    min-height:63rem;
     background:white;
   `,
   Header: styled.div`
